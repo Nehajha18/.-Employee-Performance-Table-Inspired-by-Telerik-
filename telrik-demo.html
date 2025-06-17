@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <title>Document</title>
+    <style>
+        .a1 {
+            height: 30px;
+            width: 30px;
+            border-radius: 30px;
+        }
+
+        .first-line {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        /* body{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;  
+        } */
+        .bi-eye {
+            border-radius: 10px;
+            padding: 10px;
+
+            border: 1px solid blue;
+            margin-right: -10px;
+            background-color: white;
+
+
+
+
+        }
+
+        .bi-code-slash {
+            border-radius: 10px;
+            padding: 10px;
+            /* background-color: rgb(149, 234, 234); */
+            /* margin-left: -4px; */
+
+        }
+
+        table {
+            margin-top: 50px;
+        }
+
+        .one {
+            background-color: rgb(165, 238, 238);
+            padding: 10px 10px 10px 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+
+        }
+        .second-line{
+            background-color: bisque;
+            text-align: center;
+            display:flex;
+            justify-content: right;
+            padding-right:40px;
+            padding: 10px;
+            
+        }
+        .default{
+            border:1px solid gray;
+            background-color: cadetblue;
+            padding: 10px;
+        }
+        .circle-3{
+            margin-right: -10px;
+       
+        }
+        .circle-2{
+            margin-left: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first-line">
+        <div class="one">
+
+            <span class="bi bi-eye">Example</span>
+            <span class="bi bi-code-slash">VIEW SOURCE</span>
+
+        </div>
+
+        <div class="2">
+            <Span>EDIT IN</Span>
+            <span class="bi bi-chevron-down"></span>
+            <span>|</span>
+            <span class="bi bi-arrow-up-right-square"></span>
+            <span>|</span>
+            <span class="bi bi-arrows-angle-expand"></span>
+        </div>
+    </div>
+
+
+    <div class="second-line">
+        <span>Change Theme</span>
+        <div class="default" >
+            <span  class="bi bi-circle"></span>
+            <span  class="bi bi-circle" class="circle-2"></span>
+            <span  class="bi bi-circle circle-3" class></span>
+            <span>Default</span>
+        </div>
+
+    </div>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <td colspan="5">Employee</td>
+                <td colspan="1">Performence</td>
+                <td colspan="4">Contacts</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox" name=checkbox></td>
+                <td>Contact Name<span class="bi bi-three-dots-vertical"></span>
+                <td>Job Title<span class="bi bi-three-dots-vertical"></span>
+                <td>Country <span class="bi bi-three-dots-vertical"></span>
+                <td>Status<span class="bi bi-three-dots-vertical"></span>
+                <td>Rating<span class="bi bi-three-dots-vertical"></span>
+                <td>Engagement<span class="bi bi-three-dots-vertical"></span>
+                <td>Budget<span class="bi bi-three-dots-vertical"></span>
+                <td>Contacts<span class="bi bi-three-dots-vertical"></span>
+                <td>Address<span class="bi bi-three-dots-vertical"></span>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name=checkbox></td>
+                <td><img class="a1" src="./images/a1.jpeg" alt=""> <span>Sig Jeannel</span></td>
+                <td>Human Resources Assistant |||</td>
+                <td><img src="./images/a1-image.png"></td>
+                <td>$100.00</td>
+                <td class="bi bi-star-fill"><span class="bi bi-star-fill"></span><span
+                        class="bi bi-star-fill"></span><span class="bi bi-star"></span><span class="bi bi-star"></span>
+                </td>
+                <td><meter min="1" max="100" value="40" low="40" high="80"></meter><span> &nbsp;40%</span></td>
+                <td>$40.000</td>
+                <td>(343)6656271</td>
+                <td>2 Waxwing Point</td>
+
+            </tr>
+
+
+            <tr>
+                <td><input type="checkbox" name=checkbox></td>
+                <td><img class="a1" src="./images/a2.jpeg" alt=""> <span>Shelden Greyes</span></td>
+                <td>Operator</td>
+                <td><img src="./images/a2-image.png"></td>
+                <td>$40.000</td>
+                <td class="bi bi-star-fill"><span class="bi bi-star-fill"></span><span
+                        class="bi bi-star-fill"></span><span class="bi bi-star-fill"></span><span
+                        class="bi bi-star-fill"></span> </td>
+                <td><meter min="1" max="100" value="80" low="20" high="100"></meter><span> &nbsp;66%</span></td>
+                <td>$66.000</td>
+                <td>(178)2336256</td>
+                <td>4082 Stephen Court</td>
+            </tr>
+
+
+
+            <tr>
+                <td><input type="checkbox" name=checkbox></td>
+                <td><img class="a1" src="./images/a3.jpeg" alt=""> <span>Megen Cody</span></td>
+                <td>Operator</td>
+                <td><img src="./images/a3-image.png"></td>
+                <td>$66.000</td>
+                <td class="bi bi-star-fill"><span class="bi bi-star"></span><span class="bi bi-star"></span><span
+                        class="bi bi-star"></span><span class="bi bi-star"></span> </td>
+                <td><meter min="1" max="100" value="70" low="20" high="100"></meter><span> &nbsp;58%</span></td>
+                <td>$58.000</td>
+                <td>(277)7415010</td>
+                <td>1563 Glacier Hill Parkway</td>
+
+            </tr>
+            </tr>
+
+
+            <tr>
+                <td><input type="checkbox" name=checkbox></td>
+                <td><img class="a1" src="./images/a4.jpeg" alt=""> <span>Clevey Thursfield</span></td>
+                <td>VP Quality Control</td>
+                <td><img src="./images/a3-image.png"></td>
+                <td>$58.000</td>
+                <td class="bi bi-star-fill"><span class="bi bi-star-fill"></span><span class="bi bi-star"></span><span
+                        class="bi bi-star"></span><span class="bi bi-star"></span> </td>
+                <td><meter min="1" max="100" value="40" low="20" high="100"></meter><span> &nbsp;37%</span></td>
+                <td>$37.000</td>
+                <td>(766)5691615</td>
+                <td>6 Laurel Avenue</td>
+
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
